@@ -7,4 +7,4 @@ Repositório com os exercicios e exemplos do curso OneBitCode
 
 | Módulo | Link |
 | - | :-: |
-|<h5>HTML</h5> | [Link] |
+|<h5>HTML</h5> | [Link](https://github.com/ThayaneBarros/Programador_Full_Stack_Exercises/tree/main/HTML5)|
