@@ -6,23 +6,69 @@
   <body>
     <h3>Cadastro da liga dos astronautas</h3>
     <form action="">
-      <label for="name">Nome:</label>
-      <input type="text" id="name" name="name" required />
+      <div>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
       <br />
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <label for="psw">-Password:</label>
+        <input type="password" id="psw" name="psw" />
+      </div>
       <br />
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" />
-      <label for="psw">-Password:</label>
-      <input type="password" id="psw" name="psw" />
+
+      <div>
+        <label for="data">Data de nascimento:</label>
+        <input type="datetime-local" id="data" name="data" />
+        <label for="photo">-Foto:</label>
+        <input type="file" id="photo" name="photo" />
+      </div>
       <br />
+
+      <div>
+        <label for="nationality">Nacionalidade:</label>
+        <select name="nationality" id="nationality">
+          <option value="russian">Russo</option>
+          <option value="american">Americano</option>
+          <option value="brasilian">Brasileiro</option>
+        </select>
+        -Gênero:
+        <label for="female">F</label>
+        <input type="radio" id="female" name="gender" value="F" />
+        <label for="male">M</label>
+        <input type="radio" id="male" name="gender" value="M" />
+      </div>
       <br />
-      <label for="data">Data de nascimento:</label>
-      <input type="datetime-local" id="data" name="data" />
-      <label for="photo">-Foto:</label>
-      <input type="file" id="photo" name="photo" />
+
+      <div>
+        Suas principais qualidades:
+        <br />
+        <label for="int">Inteligência</label>
+        <input type="checkbox" id="int" name="int" />
+        <label for="res">| Resiliência</label>
+        <input type="checkbox" id="res" name="res" />
+        <label for="fis">| Preparo físico</label>
+        <input type="checkbox" id="fis" name="fis" />
+        <label for="edu">| Educação</label>
+        <input type="checkbox" id="edu" name="edu" />
+      </div>
       <br />
+
+      <div>
+        <textarea
+          name="description"
+          id="description"
+          cols="30"
+          rows="10"
+          placeholder="Por que você gostaria de ser um austronauta?"
+        ></textarea>
+      </div>
       <br />
-      <label for="nac">Nacionalidade:</label>
+
+      <div><input type="submit" value="Criar" /></div>
     </form>
   </body>
 </html>
