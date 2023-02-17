@@ -11,3 +11,4 @@ Repositório com os exercicios e exemplos do curso OneBitCode
 |<h5>CSS</h5> | [Link](https://github.com/ThayaneBarros/Programador_Full_Stack_Exercises/tree/main/CSS)|
 |<h5>Bulma</h5> | [Link](https://github.com/ThayaneBarros/Programador_Full_Stack_Exercises/tree/main/Bulma/Portifolio)|
 |<h5>Javascript I - Lógica de Programação</h5> | [Link](https://github.com/ThayaneBarros/Programador_Full_Stack_Exercises/tree/main/JavaScript/Exercicios)|
+|<h5>Javascript II - DOM</h5> | [Link](https://github.com/ThayaneBarros/Programador_Full_Stack_Exercises/tree/main/JavaScriptII-DOM)|
