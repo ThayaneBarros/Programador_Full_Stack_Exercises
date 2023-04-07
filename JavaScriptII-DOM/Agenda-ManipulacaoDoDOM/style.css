@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #353b51;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+button {
+  background: #a13952;
+  color: white;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.btnContact {
+  display: flex;
+  justify-content: center;
+}
+
+#contacts-list {
+  background-color: #464d6a;
+  margin: 20px 200px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.contact {
+  margin: 25px;
+  box-shadow: 2px 2px 2px 2px #556298;
+  border-radius: 10px;
+  padding: 1px 15px;
+}
